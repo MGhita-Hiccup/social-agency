@@ -66,6 +66,7 @@ footer p {
 header
 {
     background-image: url(R.jfif);
+    width: 100vw;
     background-size: cover;
     background-position: center center;
 }
