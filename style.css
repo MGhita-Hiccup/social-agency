@@ -1,0 +1,138 @@
+:root
+{
+    --main-color:#4726e1;
+}
+.text-main
+{
+    color: var(--main-color)
+}
+body {
+    font-family: 'sego ui light';
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+#sidBar {
+    
+    width: 50%;
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    align-items: flex-start;
+    top: 450px;
+    left: 0;
+}
+.box {
+    background-color: #ccc;
+    padding: 10px;
+    border: solid 5px #333;
+
+
+}
+#sidBar i {
+    background-color: #333;
+    color: #ccc;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+
+body h3 {
+    font-weight: bolder;
+}
+#sidBar span {
+    cursor: pointer;
+}
+.colorItem {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    display: inline-block
+}
+footer p {
+    display: flex;
+    left: 5;
+    font-style: italic;
+}
+
+#contact i {
+    
+    font-size: 100px;   
+}
+.brand i {
+    cursor: pointer;
+}
+
+header
+{
+    background-image: url(R.jfif);
+    background-size: cover;
+    background-position: center center;
+}
+   
+.brand
+{
+    width: 2rem;
+    height: 2rem;
+    
+}
+.logo
+{
+    width: 50px;
+}
+.title h2
+{
+    width: 5rem;
+    font-weight: 900;
+    color: #f4f4f4;
+    letter-spacing: 15px;
+}
+.title h3
+{
+    width: 2.5rem;
+    font-weight: 900;
+    color: black;
+}
+.customer-feedback
+{
+    border: solid 4px #f1f1f1;
+}
+.clent-img
+{
+    width: 90px;
+    border-radius: 50%;
+    border: solid 4px #f4f4f4;
+    transform: translateY(50%);
+}
+.customer-feedback h6
+{
+    position: relative;
+}
+.customer-feedback h6::after
+{
+    content: '';
+    background-color: var(--main-color);
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    left: 45%;
+    top: 100%;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0;
+    border: solid 3px #f1f1f1;
+}
+footer
+{
+    margin-top: 20px;
+}
+.carousel-indicators img {
+    cursor: pointer;
+}
+.container-fluid img {
+    border-radius: 50%;
+}
