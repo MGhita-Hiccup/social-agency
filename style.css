@@ -62,7 +62,7 @@ footer p {
 .brand i {
     cursor: pointer;
 }
-
+/*
 header
 {
     background-image: url(R.jfif);
@@ -70,7 +70,7 @@ header
     background-size: cover;
     background-position: center center;
 }
-   
+  */ 
 .brand
 {
     width: 2rem;
