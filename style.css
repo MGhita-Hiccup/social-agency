@@ -84,15 +84,17 @@ header
 .title h2
 {
     width: 5rem;
-    font-weight: 900;
-    color: #f4f4f4;
+    font-weight: 400;
+    
+    color: rgb(0, 0, 0, 0.5);
     letter-spacing: 15px;
 }
 .title h3
 {
-    width: 2.5rem;
+    width: 5rem;
     font-weight: 900;
     color: black;
+    letter-spacing: 15px;
 }
 .customer-feedback
 {
@@ -142,4 +144,14 @@ footer
 }
 .glassy-bg{
     margin: auto;
+}
+.header-content {
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    z-index: 20; 
+    
 }
