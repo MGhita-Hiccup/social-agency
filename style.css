@@ -137,3 +137,9 @@ footer
 .container-fluid img {
     border-radius: 50%;
 }
+.particles-js-canvas-el{
+    position: absolute;
+}
+.glassy-bg{
+    margin: auto;
+}
